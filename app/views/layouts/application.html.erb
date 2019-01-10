@@ -41,16 +41,32 @@
     
     <!--<%= yield %>-->
     
-    <script type="text/javascript" src="assets/jquery.1.11.1.js"></script> 
-    <script type="text/javascript" src="assets/bootstrap.js"></script> 
-    <script type="text/javascript" src="assets/SmoothScroll.js"></script> 
-    <script type="text/javascript" src="assets/nivo-lightbox.js"></script> 
-    <script type="text/javascript" src="assets/jquery.isotope.js"></script> 
-    <script type="text/javascript" src="assets/owl.carousel.js"></script> 
+    <!--<script type="text/javascript" src="assets/jquery.1.11.1.js"></script> -->
+    <%= javascript_include_tag 'jquery.1.11.1.js'%>
+    
+    <!--<script type="text/javascript" src="assets/bootstrap.js"></script> -->
+    <%= javascript_include_tag 'bootstrap.js'%>
+    
+    <!--<script type="text/javascript" src="assets/SmoothScroll.js"></script> -->
+    <%= javascript_include_tag 'SmoothScroll.js'%>
+    
+    <!--<script type="text/javascript" src="assets/nivo-lightbox.js"></script> -->
+    <%= javascript_include_tag 'nivo-lightbox.js'%>
+    
+    <!--<script type="text/javascript" src="assets/jquery.isotope.js"></script> -->
+    <%= javascript_include_tag 'jquery.isotope.js'%>
+    
+    <!--<script type="text/javascript" src="assets/owl.carousel.js"></script> -->
+    <%= javascript_include_tag 'owl.carousel.js'%>
+    
     <!--<script type="text/javascript" src="assets/jqBootstrapValidation.js"></script> -->
     <%= javascript_include_tag 'jqBootstrapValidation.js'%>
-    <script type="text/javascript" src="assets/contact_me.js"></script> 
-    <script type="text/javascript" src="assets/main.js"></script>
+   
+    <!--<script type="text/javascript" src="assets/contact_me.js"></script> -->
+    <%= javascript_include_tag 'contact_me.js'%>
+    
+    <!--<script type="text/javascript" src="assets/main.js"></script>-->
+    <%= javascript_include_tag 'main.js'%>
     
   </body>
 </html>
