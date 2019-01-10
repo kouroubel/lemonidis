@@ -13,8 +13,4 @@
 //= require rails-ujs
 //= require turbolinks
 
-//= require jqBootstrapValidation
-//= require contact_me.js
-//= require main.js
-
 //= require_tree .
