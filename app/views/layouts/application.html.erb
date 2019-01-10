@@ -27,6 +27,8 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    
   </head>
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -40,6 +42,8 @@
     <%= render 'layouts/footer' %>
     
     <!--<%= yield %>-->
+        
+    <!--***.js file must be precompiled in assets.rb***-->
     
     <!--<script type="text/javascript" src="assets/jquery.1.11.1.js"></script> -->
     <%= javascript_include_tag 'jquery.1.11.1.js'%>
@@ -68,5 +72,6 @@
     <!--<script type="text/javascript" src="assets/main.js"></script>-->
     <%= javascript_include_tag 'main.js'%>
     
+ 
   </body>
 </html>
