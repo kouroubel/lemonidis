@@ -33,19 +33,19 @@
 }
 .nivo-lightbox-theme-default .nivo-lightbox-prev { 
 	/*background-image: url(../assets/prev.png); */
-	background-image:asset_url("gallery/prev.png");
+	background-image:asset_url("nivo-lightbox/prev.png");
 	border-radius: 0 3px 3px 0;
 }
 .nivo-lightbox-theme-default .nivo-lightbox-next { 
 	/*background-image: url(../assets/next.png); */
-	background-image:asset_url("gallery/next.png");
+	background-image:asset_url("nivo-lightbox/next.png");
 	border-radius: 3px 0 0 3px;
 }
 
 .nivo-lightbox-theme-default .nivo-lightbox-close {
 	display: block;
 	/*background: url(../assets/close.png) no-repeat 5px 5px;*/
-	background: asset_url("gallery/close.png") no-repeat 5px 5px;
+	background: asset_url("nivo-lightbox/close.png") no-repeat 5px 5px;
 	width: 16px;
 	height: 16px;
 	text-indent: -9999px;
